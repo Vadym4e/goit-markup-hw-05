@@ -34,10 +34,7 @@
         </nav>
         <ul class="connection-list list">
           <li class="connection-list-mail">
-            <a
-              class="connection-link"
-              href="mailto:info@devstudio.com"
-              data-modal-open
+            <a class="connection-link" href="mailto:info@devstudio.com"
               ><svg class="connection-icon-mail">
                 <use href="./imeges/symbol-defs.svg#icon-mail-icon"></use>
               </svg>
@@ -60,7 +57,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
-          <button class="hero-buttom" type="button">Замовити послугу</button>
+          <button class="hero-buttom" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <!-- /* --------------------------------FEATURE--------------------------- */ -->
@@ -99,33 +98,37 @@
           </ul>
         </div>
       </section>
+      <!-- --------------------SECTION------------------------------------------ -->
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="section-list list">
-            <li>
+            <li class="section-list-item">
               <a href="#"
                 ><img
                   src="./imeges/desktop.jpg"
                   alt="Людина працює за комп'ютером"
-                  width="370"
-              /></a>
+                  width="370" />
+                <p class="section-paragraph">Десктопні додатки</p>
+              </a>
             </li>
-            <li>
+            <li class="section-list-item">
               <a href="#"
                 ><img
                   src="./imeges/mobile.jpg"
                   alt="Людина тримає в руці смартфон сидячи перед комп'ютером"
-                  width="370"
-              /></a>
+                  width="370" />
+                <p class="section-paragraph">Мобільні додатки</p>
+              </a>
             </li>
-            <li>
-              <a href="#"
-                ><img
+            <li class="section-list-item">
+              <a href="#">
+                <img
                   src="./imeges/design.jpg"
                   alt="Людина тримає в руці планшет з палітрою фарб на екрані"
-                  width="370"
-              /></a>
+                  width="370" />
+                <p class="section-paragraph">Дизайнерські рішення</p>
+              </a>
             </li>
           </ul>
         </div>
